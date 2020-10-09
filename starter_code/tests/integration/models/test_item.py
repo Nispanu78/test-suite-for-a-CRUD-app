@@ -12,3 +12,7 @@ class ItemTest(BaseTest):
             item.save_to_db()
 
             self.assertIsNotNone(ItemModel.find_by_name('test'))
+
+            item.delete_from_db()
+
+            self.assertIsNone(ItemModel.find_by_name('test'))
