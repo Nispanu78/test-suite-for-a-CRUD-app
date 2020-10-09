@@ -2,11 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="66fdcd40-d659-43ca-9805-d08363ddb122" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/starter_code/models/store.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/starter_code/resources/store.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/starter_code/tests/integration/models/test_store.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/starter_code/tests/unit/models/test_store.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/starter_code/tests/unit/unit_base_test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter_code/tests/base_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/starter_code/tests/base_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter_code/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/starter_code/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter_code/models/item.py" beforeDir="false" afterPath="$PROJECT_DIR$/starter_code/models/item.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter_code/resources/item.py" beforeDir="false" afterPath="$PROJECT_DIR$/starter_code/resources/item.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter_code/tests/base_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/starter_code/tests/integration/integration_base_test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/starter_code/tests/integration/models/test_item.py" beforeDir="false" afterPath="$PROJECT_DIR$/starter_code/tests/integration/models/test_item.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter_code/tests/unit/models/test_item.py" beforeDir="false" afterPath="$PROJECT_DIR$/starter_code/tests/unit/models/test_item.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,6 +45,11 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/starter_code/tests/integration" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -50,22 +62,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_item.ItemTest (1)">
-    <configuration name="Unittests for base_test.BaseTest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="test_api" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/starter_code/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;base_test.BaseTest&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for test_item.ItemTest (1)" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Unittests for test_store.StoreTest (1)">
+    <configuration name="Unittests for test_store.StoreTest (1)" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="test_api" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -75,11 +73,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_item.ItemTest&quot;" />
+      <option name="_new_target" value="&quot;test_store.StoreTest&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_item.ItemTest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_store.StoreTest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="test_api" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -89,30 +87,59 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_item.ItemTest&quot;" />
+      <option name="_new_target" value="&quot;test_store.StoreTest&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_item.ItemTest.test_item_json" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_store.StoreTest.test_crud" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="test_api" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/starter_code/tests/unit/models" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/starter_code/tests/integration/models" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_item.ItemTest.test_item_json&quot;" />
+      <option name="_new_target" value="&quot;test_store.StoreTest.test_crud&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_store.StoreTest.test_store_json_with_item" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="test_api" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/starter_code/tests/integration/models" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_store.StoreTest.test_store_json_with_item&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_store.StoreTest.test_store_relationship" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="test_api" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/starter_code/tests/integration/models" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_store.StoreTest.test_store_relationship&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests for test_item.ItemTest (1)" />
-        <item itemvalue="Python tests.Unittests for test_item.ItemTest" />
-        <item itemvalue="Python tests.Unittests for base_test.BaseTest" />
-        <item itemvalue="Python tests.Unittests for test_item.ItemTest.test_item_json" />
+        <item itemvalue="Python tests.Unittests for test_store.StoreTest (1)" />
+        <item itemvalue="Python tests.Unittests for test_store.StoreTest.test_crud" />
+        <item itemvalue="Python tests.Unittests for test_store.StoreTest.test_store_json_with_item" />
+        <item itemvalue="Python tests.Unittests for test_store.StoreTest.test_store_relationship" />
+        <item itemvalue="Python tests.Unittests for test_store.StoreTest" />
       </list>
     </recent_temporary>
   </component>
