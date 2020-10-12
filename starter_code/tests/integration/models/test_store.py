@@ -1,7 +1,7 @@
 from starter_code.models.item import ItemModel
 from starter_code.models.store import StoreModel
 
-from starter_code.tests.integration.integration_base_test import BaseTest
+from starter_code.tests.integration_base_test import BaseTest
 
 class StoreTest(BaseTest):
     def test_create_store_items_empty(self):
