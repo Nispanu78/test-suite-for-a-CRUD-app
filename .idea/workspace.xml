@@ -3,42 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="66fdcd40-d659-43ca-9805-d08363ddb122" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter_code/tests/system/test_store.py" beforeDir="false" afterPath="$PROJECT_DIR$/starter_code/tests/system/test_store.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter_code/tests/system/test_user.py" beforeDir="false" afterPath="$PROJECT_DIR$/starter_code/tests/system/test_user.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/bin/pyjwt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/PyJWT-1.7.1.dist-info/AUTHORS" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/PyJWT-1.7.1.dist-info/INSTALLER" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/PyJWT-1.7.1.dist-info/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/PyJWT-1.7.1.dist-info/METADATA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/PyJWT-1.7.1.dist-info/RECORD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/PyJWT-1.7.1.dist-info/WHEEL" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/PyJWT-1.7.1.dist-info/entry_points.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/PyJWT-1.7.1.dist-info/top_level.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/jwt-1.0.0.dist-info/INSTALLER" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/jwt-1.0.0.dist-info/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/jwt-1.0.0.dist-info/METADATA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/jwt-1.0.0.dist-info/RECORD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/jwt-1.0.0.dist-info/REQUESTED" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/jwt-1.0.0.dist-info/WHEEL" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/jwt-1.0.0.dist-info/top_level.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/jwt/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/jwt/__main__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/jwt/algorithms.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/jwt/api_jws.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/jwt/api_jwt.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/jwt/compat.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/jwt/contrib/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/jwt/contrib/algorithms/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/jwt/contrib/algorithms/py_ecdsa.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/jwt/contrib/algorithms/pycrypto.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/jwt/exceptions.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/jwt/help.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/jwt/jwa.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/jwt/jwk.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/jwt/jwkset.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/jwt/jws.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/jwt/jwt.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/jwt/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter_code/resources/item.py" beforeDir="false" afterPath="$PROJECT_DIR$/starter_code/resources/item.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter_code/tests/base_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/starter_code/tests/base_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter_code/tests/system/test_item.py" beforeDir="false" afterPath="$PROJECT_DIR$/starter_code/tests/system/test_item.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -89,8 +56,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_store.StoreTest">
-    <configuration name="Unittests for test_store.StoreTest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Unittests for test_item.ItemTest.test_get_item_no_auth">
+    <configuration name="Unittests for test_item.ItemTest.test_create_item" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="test_api" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -100,11 +67,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_store.StoreTest&quot;" />
+      <option name="_new_target" value="&quot;test_item.ItemTest.test_create_item&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_store.StoreTest.test_create_duplicate_store" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_item.ItemTest.test_delete_item" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="test_api" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -114,11 +81,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_store.StoreTest.test_create_duplicate_store&quot;" />
+      <option name="_new_target" value="&quot;test_item.ItemTest.test_delete_item&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_store.StoreTest.test_store_found_with_items" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_item.ItemTest.test_get_item" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="test_api" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -128,11 +95,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_store.StoreTest.test_store_found_with_items&quot;" />
+      <option name="_new_target" value="&quot;test_item.ItemTest.test_get_item&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_store.StoreTest.test_store_list" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_item.ItemTest.test_get_item_no_auth" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="test_api" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -142,11 +109,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_store.StoreTest.test_store_list&quot;" />
+      <option name="_new_target" value="&quot;test_item.ItemTest.test_get_item_no_auth&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_store.StoreTest.test_store_list_with_items" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_item.ItemTest.test_get_item_not_found" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="test_api" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -156,7 +123,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_store.StoreTest.test_store_list_with_items&quot;" />
+      <option name="_new_target" value="&quot;test_item.ItemTest.test_get_item_not_found&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -176,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests for test_store.StoreTest" />
-        <item itemvalue="Python tests.Unittests for test_store.StoreTest.test_create_duplicate_store" />
-        <item itemvalue="Python tests.Unittests for test_store.StoreTest.test_store_list_with_items" />
-        <item itemvalue="Python tests.Unittests for test_store.StoreTest.test_store_list" />
-        <item itemvalue="Python tests.Unittests for test_store.StoreTest.test_store_found_with_items" />
+        <item itemvalue="Python tests.Unittests for test_item.ItemTest.test_get_item_no_auth" />
+        <item itemvalue="Python tests.Unittests for test_item.ItemTest.test_get_item_not_found" />
+        <item itemvalue="Python tests.Unittests for test_item.ItemTest.test_get_item" />
+        <item itemvalue="Python tests.Unittests for test_item.ItemTest.test_delete_item" />
+        <item itemvalue="Python tests.Unittests for test_item.ItemTest.test_create_item" />
       </list>
     </recent_temporary>
   </component>
